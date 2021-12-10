@@ -51,3 +51,11 @@ label{
     color: blanchedalmond;
     justify-content: space-around;
 }
+.box{
+    padding: 1%;
+    border:1px solid blanchedalmond;
+    /* align-items: center; */
+    width: 25%;
+    align-content: center;
+    border-radius: 3%;
+}

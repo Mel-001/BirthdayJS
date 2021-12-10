@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    width: 100%;
+  }
+
+.backgroundimage {
+    background-image: url("Ghana.jpg");
+    background-color: transparent;
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  margin: auto;
+  text-align: center;
+    /* display: flex; */
+    padding: 3%;
+}

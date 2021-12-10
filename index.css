@@ -45,3 +45,9 @@ label{
 .heading{
     color: blanchedalmond;
 }
+.description{
+    display: flex;
+    padding: 5%;
+    color: blanchedalmond;
+    justify-content: space-around;
+}

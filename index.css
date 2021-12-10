@@ -29,3 +29,12 @@ body, html {
     font-weight: 700;
 
 }
+.name{
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    padding-top: 2%;
+    font-weight: 900;
+    border-radius: 2%;
+    
+}

@@ -103,3 +103,13 @@ function validateForm() {
 
     return true
 }
+function main(event) {
+    event.preventDefault();
+    if(validateForm()){
+    // console.log(getDay())
+    dayValue = getDay();
+    getUserGender(dayValue)}
+
+    return false
+}
+

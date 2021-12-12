@@ -95,4 +95,11 @@ function validateForm() {
         alert("Enter a valid month")
         return false
     }
+    DD = parseInt(document.getElementById("dy").value);
+    if (DD> 31){
+        alert("Please enter a valid date")
+        return false
+    }
+
+    return true
 }

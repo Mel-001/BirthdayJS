@@ -15,4 +15,70 @@ function getDay() {
     var x = Math.floor(ddy)
     return x;
 }
-
+function getUserGender(dv) {
+    var g = document.getElementsByName("gender")
+    var gndr;
+    // console.log(g)
+    if (g[0].checked == true) {
+        gndr = "male";
+    } else if (g[1].checked == true) {
+        gndr = "female";
+    } else {
+        return false;
+    }
+    // console.log(gndr)
+    switch (gndr) {
+        case "male":
+            //   console.log(dv)
+            switch (dv) {
+                case 1:
+                    alert("You were born on " + dayNames[0] + " and Your akan name is " + maleNames[0] + "!");
+                    break
+                case 2:
+                    alert("You were born on " + dayNames[1] + " and Your akan name is " + maleNames[1] + "!");
+                    break
+                case 3:
+                    alert("You were born on " + dayNames[2] + " and Your akan name is " + maleNames[2] + "!");
+                    break
+                case 4:
+                    alert("You were born on " + dayNames[3] + " and Your akan name is " + maleNames[3] + "!");
+                    break
+                case 5:
+                    alert("You were born on " + dayNames[4] + " and Your akan name is " + maleNames[4] + "!");
+                    break
+                case 6:
+                    alert("You were born on " + dayNames[5] + " and Your akan name is " + maleNames[5] + "!");
+                    break
+                case 7:
+                    alert("You were born on " + dayNames[6] + " and Your akan name is " + maleNames[6] + "!");
+                    break
+            }
+            break;
+        case "female":
+            switch (dv) {
+                case 1:
+                    alert("You were born on " + dayNames[0] + " and Your akan name is " + femaleNames[0] + "!");
+                    break
+                case 2:
+                    alert("You were born on " + dayNames[1] + " and Your akan name is " + femaleNames[1] + "!");
+                    break
+                case 3:
+                    alert("You were born on " + dayNames[2] + " and Your akan name is " + femaleNames[2] + "!");
+                    break
+                case 4:
+                    alert("You were born on " + dayNames[3] + " and Your akan name is " + femaleNames[3] + "!");
+                    break
+                case 5:
+                    alert("You were born on " + dayNames[4] + " and Your akan name is " + femaleNames[4] + "!");
+                    break;
+                case 6:
+                    alert("You were born on " + dayNames[5] + " and Your akan name is " + femaleNames[5] + "!");
+                    break
+                case 7:
+                    alert("You were born on " + dayNames[6] + " and Your akan name is " + femaleNames[6] + "!");
+                    break;
+            }
+            break
+        default:
+    }
+}

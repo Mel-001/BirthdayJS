@@ -90,4 +90,9 @@ function validateForm() {
         alert("Please enter a valid year")
         return false
     }
+    MM = parseInt(document.getElementById("mon").value);
+    if (MM > 12){
+        alert("Enter a valid month")
+        return false
+    }
 }

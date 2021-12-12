@@ -15,18 +15,19 @@
             <h1> Wanna know you Akan Name?<br>Then fill this form!</h1>
         </div>
         <div class="container1">
-            <form>
-                <label for="cname">Century of Birth:</label><br>
-                <input type="text" class="name" name="cname"><br>
+            <form onsubmit="">
+                <!-- <label for="cname">Century of Birth:</label><br>
+                <input id="cen" type="text" class="name" name="cname" maxlength="2" required><br> -->
                 <label for="yname">Year of Birth:</label><br>
-                <input type="text" class="name" name="yname"><br>
+                <input id="yr" type="text" class="name" name="yname" maxlength="4" required><br>
                 <label for="mname">Month of Birth:</label><br>
-                <input type="text" class="name" name="mname"><br>
+                <input id="mon" type="text" class="name" name="mname" maxlength="2" required><br>
                 <label for="dname">Date of Birth:</label><br>
-                <input type="text" class="name" name="dname"><br>
+                <input id="dy" type="text" class="name" name="dname" maxlength="2" required><br><br>
                 <label>Gender</label><br>
-                <label for="cname"><input type="radio" name="gender" value="male">Male</label>
-                <label for="cname"><input type="radio" name="gender" value="female">Female</label><br>
+                <label for="cname"><input type="radio" name="gender" value="male" class="gender">Male</label>
+                <label for="cname"><input type="radio" name="gender" value="female" class="gender">Female</label><br><br><br>
+                <input type="submit" onclick="main(event); return false;" value="Submit" class="submit">
             </form>
         </div>
 
@@ -43,5 +44,6 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

@@ -82,3 +82,12 @@ function getUserGender(dv) {
         default:
     }
 }
+function validateForm() {
+    yr = document.getElementById("yr").value;
+    const d = new Date();
+    let year = d.getFullYear();
+    if (yr > year) {
+        alert("Please enter a valid year")
+        return false
+    }
+}

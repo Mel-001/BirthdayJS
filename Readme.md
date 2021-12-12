@@ -20,7 +20,7 @@ https://mel-001.github.io/BirthdayJS/
 
 * git clone ```git@github.com:Mel-001/BirthdayJS.git```
 
-* cd Akan-Names
+* cd BirthdayJS
 
 * code . or atom . based on the text editor you have.
 
@@ -33,49 +33,42 @@ https://mel-001.github.io/BirthdayJS/
 
 
 ## BDD
-Enter century of birth eg 20 for 2019,
-     Input Example 20
-     Output example 20
+* Enter year of Birth eg 1997 for 1997
+     Input Example 1997
+     Output Example 1997
 
-* Enter year of Birth eg 21 for 2021
-     Input Example 21
-     Output Example 21
+* Enter month of birth eg 12 for December 
+    Input example 12
+    Output example 12
 
-* Enter month of birth eg 1 for january 
-    Input example 1
-    Output example 1
-
-* Enter Date of the month you were born in eg 20
-    input example 20
-    output example 20
+* Enter Date of the month you were born in eg 16
+    input example 16
+    output example 16
 
 * Select gender 
-    Input example male
-    output male
+    Input example female
+    output female
 
 Submit.
 Input example, the program compares the inputs with the conditions set for the inputs eg if No input field is empty, the program executes else an alert to enter valid deatils.
 * 0 < Date >= 31.
 * 0 < Month >= 12
 * Gender Male or Female. <br/>  
-True value is output. Output example: **You were born on Sunday and Your akan name is Kwasi!** &nbsp If your gender is Male.<br/>
-True value is output. Output example: **You were born on Sunday and Your akan name is  Akosua!** &nbsp If your gender is female.  
+True value is output. Output example: **You were born on Tuesday and Your akan name is Kwabena!** &nbsp If your gender is Male.<br/>
+True value is output. Output example: **You were born on Tuesday and Your akan name is  Abenaa!** &nbsp If your gender is female.  
 
 **Example**
-* century input -- 20
-* year input   -- 21
-* month input  -- 7
-* date input -- 14
-* gender -- male selected,
-**Expected output is *You were born on Sunday and Your akan name is Kwasi!*** 
+* year input   -- 1997
+* month input  -- 12
+* date input -- 16
+* gender -- female selected,
+**Expected output is *You were born on Tuesday and Your akan name is Abenaa!*** 
 
-## Known Bugs
-* Some output are not as accurate as expected..
 
 ## Contact Information 
 
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
+If you have any question or contributions, please email me at [melonielangat@gmail.com]
 
 ## License
 * *MIT License:*
-* Copyright (c) 2019 **Melonie Langat**
+* Copyright (c) 2021 **Melonie Langat**
